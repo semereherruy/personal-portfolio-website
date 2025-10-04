@@ -532,13 +532,13 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`p-4 border rounded-xl transition-all duration-300 focus:ring-2 focus:ring-accent focus:ring-offset-2 transform hover:scale-110 ${
-                    isDark 
+                    isDark
                       ? 'bg-gray-800/50 border-gray-700 text-white hover:text-accent hover:border-accent'
                       : 'bg-white border-borderSubtle text-textPrimary hover:text-accent hover:border-accent'
                   }`}
                   aria-label="Upwork Profile"
                 >
-                  <Globe size={24} />
+                  <Briefcase size={24} />
                 </a>
               </div>
             </div>
@@ -981,13 +981,13 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-3 rounded-full transition-all duration-300 transform hover:scale-110 ${
-                  isDark 
+                  isDark
                     ? 'text-gray-400 hover:text-accent hover:bg-accent/10'
                     : 'text-textMuted hover:text-accent hover:bg-accent/10'
                 }`}
                 aria-label="Upwork Profile"
               >
-                <Globe size={24} />
+                <Briefcase size={24} />
               </a>
             </div>
           </div>
@@ -997,7 +997,7 @@ function App() {
             <p className={`text-sm transition-colors duration-300 ${
               isDark ? 'text-gray-400' : 'text-textMuted'
             }`}>
-              © 2025 Semere Herruy Solomon. Coding the future. Assisted by Bolt AI
+              © 2025 Semere Herruy Solomon. Assisted by Bolt AI
             </p>
           </div>
         </div>
