@@ -125,7 +125,7 @@ function App() {
     mobile: [
       'Flutter'
     ],
-    orm: [
+    ORM: [
       'Eloquent ORM', 'JPA/Hibernate', 'Migrations', 'Database Design'
     ],
     tools: [
