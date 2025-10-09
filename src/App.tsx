@@ -363,9 +363,9 @@ function App() {
             </div>
 
             {/* Main Title with Gradient */}
-            <h1 className={`text-6xl md:text-8xl font-bold mb-6 transition-colors duration-300 bg-gradient-to-r from-accent via-textPrimary to-accent bg-clip-text text-transparent animate-gradient-x animate-3d-float ${
+            <h1 className={`text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 transition-colors duration-300 bg-gradient-to-r from-accent via-textPrimary to-accent bg-clip-text text-transparent ${
               isDark ? 'from-accent via-white to-accent' : 'from-accent via-textPrimary to-accent'
-            }`} style={{ textShadow: '0 0 30px rgba(6, 182, 212, 0.3)' }}>
+            }`} style={{ textShadow: '0 0 20px rgba(6, 182, 212, 0.2)' }}>
               <span className="animate-type-name">Semere Herruy</span>
             </h1>
             
