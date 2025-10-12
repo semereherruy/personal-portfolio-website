@@ -997,7 +997,7 @@ function App() {
             <p className={`text-sm transition-colors duration-300 ${
               isDark ? 'text-gray-400' : 'text-textMuted'
             }`}>
-              © 2025 Semere Herruy Solomon. Assisted by Bolt AI
+              © 2025 Semere Herruy Solomon. Built with passion.
             </p>
           </div>
         </div>
